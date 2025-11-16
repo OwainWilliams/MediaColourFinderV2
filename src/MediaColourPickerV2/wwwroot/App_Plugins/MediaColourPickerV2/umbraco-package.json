@@ -1,0 +1,14 @@
+{
+  "id": "MediaColourPickerV2",
+  "name": "MediaColourPickerV2",
+  "version": "0.1.0",
+  "allowTelemetry": true,
+  "extensions": [
+    {
+      "name": "Media Colour Picker V2Bundle",
+      "alias": "MediaColourPickerV2.Bundle",
+      "type": "bundle",
+      "js": "/App_Plugins/MediaColourPickerV2/media-colour-picker-v-2.js"
+    }
+  ]
+}
