@@ -10,7 +10,9 @@
     <Product>Umbraco.Community.MediaColourPickerV2</Product>
     <PackageId>Umbraco.Community.MediaColourPickerV2</PackageId>
     <Title>Media Colour Picker V2</Title>
-    <Description>...</Description>
+    <Description>
+      With this Umbraco CMS package, you can now add a new custom property editor to your uploaded images. This feature enables you to use the focal point of an image to obtain its brightest color, average color, and opposite color to the brightest.
+    </Description>
     <PackageTags>umbraco;umbraco-marketplace</PackageTags>
     <Authors>Owain Williams</Authors>
     <Copyright>$([System.DateTime]::UtcNow.ToString(`yyyy`)) © Owain Williams</Copyright>
@@ -28,7 +30,7 @@
     <PackageReference Include="Umbraco.Cms.Api.Common" Version="17.0.0-rc2" />
     <PackageReference Include="Umbraco.Cms.Api.Management" Version="17.0.0-rc2" />
   </ItemGroup>
-  
+
   <ItemGroup>
     <!-- Dont include the client folder as part of packaging nuget build -->
     <Content Remove="Client\**" />
@@ -36,14 +38,14 @@
     <!-- However make the Umbraco-package.json included for dotnet pack or nuget package and visible to the solution -->
     <None Include="Client\public\umbraco-package.json" Pack="false" />
   </ItemGroup>
-  
+
   <ItemGroup>
     <None Include="..\..\docs\README_nuget.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
   </ItemGroup>
-  
+
   <ItemGroup>
     <Folder Include="Composers\" />
     <Folder Include="Controllers\" />
