@@ -1,0 +1,21 @@
+@using System.Text.Json
+@using System.Text.Json.Serialization
+@using MediaColourFinderV2.TestSite.Models
+@using Umbraco.Cms.Core.Models
+@using Umbraco.Cms.Web.Common.PublishedModels;
+@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage<MediaColourFinderV2.TestSite.Models.Root>
+
+@{
+    var colours = (Model?.Image?.Content as Image)?.ColourFinder;
+}
+
+@if (colours != null)
+{
+    @colours.Average <span style="background-color: @colours.Average;">Average</span>
+    <br />
+    @colours.Brightest <span style="background-color: @colours.Brightest;">Brightest</span>
+    <br />
+    @colours.TextColour <span style="background-color: @colours.TextColour;">TextColour</span>
+    <br />
+    @colours.Opposite <span style="background-color: @(string.IsNullOrEmpty(colours.Opposite) ? "#fff" : colours.Opposite);">Opposite</span>
+}

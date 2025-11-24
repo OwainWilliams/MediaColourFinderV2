@@ -1,0 +1,14 @@
+{
+  "id": "MediaColourFinderV2",
+  "name": "MediaColourFinderV2",
+  "version": "0.1.0",
+  "allowTelemetry": true,
+  "extensions": [
+    {
+      "name": "Media Colour Finder V2Bundle",
+      "alias": "MediaColourFinderV2.Bundle",
+      "type": "bundle",
+      "js": "/App_Plugins/MediaColourFinderV2/media-colour-finder-v-2.js"
+    }
+  ]
+}
