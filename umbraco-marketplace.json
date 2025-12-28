@@ -1,14 +1,14 @@
 {
-    "$schema": "https://marketplace.umbraco.com/umbraco-marketplace-schema.json", 
-    "AuthorDetails": {
-      "Name": "Owain Williams",
-      "ImageUrl": "https://github.com/OwainWilliams.png"
-    },
-    "Category": "",
-    "Description": "",
-    "LicenseTypes": [ "Free" ],
-    "IssueTrackerUrl": "https://github.com/OwainWilliams/MediaColourFinderV2/issues",
-    "PackageType": "Package",
-    "Tags": [],
-    "Title": "Media Colour Picker V2"
-  }
+  "$schema": "https://marketplace.umbraco.com/umbraco-marketplace-schema.json",
+  "AuthorDetails": {
+    "Name": "Owain Williams",
+    "ImageUrl": "https://github.com/OwainWilliams.png"
+  },
+  "Category": "Editor Tools",
+  "Description": "This package enables you to obtain an images brightest color, average color, and opposite color to the brightest which can then be used in your designs",
+  "LicenseTypes": [ "Free" ],
+  "IssueTrackerUrl": "https://github.com/OwainWilliams/MediaColourFinderV2/issues",
+  "PackageType": "Package",
+  "Tags": [],
+  "Title": "Media Colour Picker V2"
+}

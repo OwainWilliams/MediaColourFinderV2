@@ -4,7 +4,7 @@
 [![NuGet](https://img.shields.io/nuget/vpre/Umbraco.Community.MediaColourPickerV2?color=0273B3)](https://www.nuget.org/packages/Umbraco.Community.MediaColourPickerV2)
 [![GitHub license](https://img.shields.io/github/license/OwainWilliams/MediaColourPickerV2?color=8AB803)](../LICENSE)
 
-TODO: describe your package
+Add this property editor to an Image Media Type in Umbraco to automatically extract colour information from your images.
 
 <!--
 Including screenshots is a really good idea! 

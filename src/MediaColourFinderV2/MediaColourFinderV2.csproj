@@ -7,8 +7,8 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <Product>Umbraco.Community.MediaColourFinder</Product>
-    <PackageId>Umbraco.Community.MediaColourFinder</PackageId>
+    <Product>OC.MediaColourFinder</Product>
+    <PackageId>OC.MediaColourFinder</PackageId>
     <Title>Media Colour Picker V2</Title>
     <Description>
       With this Umbraco CMS package, you can now add a new custom property editor to your uploaded images. This feature enables you to use the focal point of an image to obtain its brightest color, average color, and opposite color to the brightest.
@@ -25,10 +25,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Umbraco.Cms.Web.Website" Version="17.0.0-rc2" />
-    <PackageReference Include="Umbraco.Cms.Web.Common" Version="17.0.0-rc2" />
-    <PackageReference Include="Umbraco.Cms.Api.Common" Version="17.0.0-rc2" />
-    <PackageReference Include="Umbraco.Cms.Api.Management" Version="17.0.0-rc2" />
+    <PackageReference Include="Microsoft.OpenApi" Version="2.4.1" />
+    <PackageReference Include="Umbraco.Cms.Web.Website" Version="17.0.2" />
+    <PackageReference Include="Umbraco.Cms.Web.Common" Version="17.0.2" />
+    <PackageReference Include="Umbraco.Cms.Api.Common" Version="17.0.2" />
+    <PackageReference Include="Umbraco.Cms.Api.Management" Version="17.0.2" />
   </ItemGroup>
 
   <ItemGroup>
