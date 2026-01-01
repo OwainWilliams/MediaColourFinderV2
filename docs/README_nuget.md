@@ -1,4 +1,4 @@
-# Media Colour Picker V2
+# Media Colour Finder V2
 
 [![Downloads](https://img.shields.io/nuget/dt/Umbraco.Community.MediaColourFinderV2?color=cc9900)](https://www.nuget.org/packages/Umbraco.Community.MediaColourFinderV2/)
 [![NuGet](https://img.shields.io/nuget/vpre/Umbraco.Community.MediaColourFinderV2?color=0273B3)](https://www.nuget.org/packages/Umbraco.Community.MediaColourFinderV2)

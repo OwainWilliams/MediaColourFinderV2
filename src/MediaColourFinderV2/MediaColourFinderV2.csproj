@@ -7,21 +7,21 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <Product>OC.MediaColourFinder</Product>
-    <PackageId>OC.MediaColourFinder</PackageId>
-    <Title>Media Colour Picker V2</Title>
+    <Product>OC.MediaColourFinderV2</Product>
+    <PackageId>OC.MediaColourFinderV2</PackageId>
+    <Title>OC Media Colour Finder V2</Title>
     <Description>
       With this Umbraco CMS package, you can now add a new custom property editor to your uploaded images. This feature enables you to use the focal point of an image to obtain its brightest color, average color, and opposite color to the brightest.
     </Description>
     <PackageTags>umbraco;umbraco-marketplace</PackageTags>
     <Authors>Owain Williams</Authors>
     <Copyright>$([System.DateTime]::UtcNow.ToString(`yyyy`)) © Owain Williams</Copyright>
-    <PackageProjectUrl>https://github.com/OwainWilliams/MediaColourFinder</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/OwainWilliams/MediaColourFinder</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/OwainWilliams/MediaColourFinderV2</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/OwainWilliams/MediaColourFinderV2</RepositoryUrl>
     <PackageReadmeFile>README_nuget.md</PackageReadmeFile>
     <RepositoryType>git</RepositoryType>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageIcon></PackageIcon>
+    <PackageIcon>\docs\icon.png</PackageIcon>
   </PropertyGroup>
 
   <ItemGroup>
@@ -46,7 +46,12 @@
       <PackagePath>\</PackagePath>
     </None>
   </ItemGroup>
-
+  <ItemGroup>
+    <None Include="..\..\docs\logo.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
     <Folder Include="wwwroot\App_Plugins\" />

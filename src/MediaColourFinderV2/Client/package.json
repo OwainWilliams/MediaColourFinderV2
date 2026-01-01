@@ -1,12 +1,12 @@
 {
-  "name": "media-colour-finder-v-2",
+  "name": "oc-media-colour-finder-v2",
   "private": true,
   "version": "2.0.0",
   "type": "module",
   "scripts": {
     "watch": "tsc && vite build --watch",
     "build": "tsc && vite build",
-    "generate-client": "node scripts/generate-openapi.js https://localhost:44304/umbraco/swagger/mediacolourpickerv2/swagger.json"
+    "generate-client": "node scripts/generate-openapi.js https://localhost:44304/umbraco/swagger/default/swagger.json"
   },
   "dependencies": {
     "colorthief": "^2.6.0"
