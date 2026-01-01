@@ -21,7 +21,7 @@
     <PackageReadmeFile>README_nuget.md</PackageReadmeFile>
     <RepositoryType>git</RepositoryType>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageIcon>\docs\icon.png</PackageIcon>
+    <PackageIcon>icon.png</PackageIcon>
   </PropertyGroup>
 
   <ItemGroup>
@@ -47,7 +47,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\..\docs\logo.png">
+    <None Include="..\..\docs\icon.png">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
