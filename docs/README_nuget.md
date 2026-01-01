@@ -1,7 +1,7 @@
 # Media Colour Finder V2
 
-[![Downloads](https://img.shields.io/nuget/dt/Umbraco.Community.MediaColourFinderV2?color=cc9900)](https://www.nuget.org/packages/Umbraco.Community.MediaColourFinderV2/)
-[![NuGet](https://img.shields.io/nuget/vpre/Umbraco.Community.MediaColourFinderV2?color=0273B3)](https://www.nuget.org/packages/Umbraco.Community.MediaColourFinderV2)
+[![Downloads](https://img.shields.io/nuget/dt/OC.MediaColourFinderV2?color=cc9900)](https://www.nuget.org/packages/OC.MediaColourFinderV2/)
+[![NuGet](https://img.shields.io/nuget/vpre/OC.MediaColourFinderV2?color=0273B3)](https://www.nuget.org/packages/OC.MediaColourFinderV2/)
 [![GitHub license](https://img.shields.io/github/license/OwainWilliams/MediaColourFinderV2?color=8AB803)](https://github.com/OwainWilliams/MediaColourFinderV2/blob/main/LICENSE)
 
 With this Umbraco CMS package, you can now add a new custom property editor to your uploaded images. This feature enables you to use the focal point of an image to obtain its average color, brightest color, opposite colour and text colour.
