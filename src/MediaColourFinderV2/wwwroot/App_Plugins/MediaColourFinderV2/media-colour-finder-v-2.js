@@ -5,14 +5,14 @@ const o = {
   element: () => import("./property-editor-ui-media-colour-finder.element-DU1gL53i.js"),
   meta: {
     label: "Media Color Finder",
-    icon: "icon-science",
+    icon: "oc-media-colour-finder",
     group: "common",
     propertyEditorSchemaAlias: "Umbraco.Plain.String"
   }
-}, e = [o], i = [
-  ...e
+}, r = [o], e = [
+  ...r
 ];
 export {
-  i as manifests
+  e as manifests
 };
 //# sourceMappingURL=media-colour-finder-v-2.js.map

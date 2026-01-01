@@ -1,6 +1,7 @@
 import { defineConfig } from "vite";
 
 export default defineConfig({
+  publicDir: "public",
   build: {
     lib: {
       entry: "src/bundle.manifests.ts", // Bundle registers one or more manifests

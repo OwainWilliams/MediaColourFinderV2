@@ -1,4 +1,5 @@
 {
+  "$schema": "../../umbraco-package-schema.json",
   "id": "MediaColourFinderV2",
   "name": "MediaColourFinderV2",
   "version": "2.0.0",
@@ -9,6 +10,12 @@
       "alias": "MediaColourFinderV2.Bundle",
       "type": "bundle",
       "js": "/App_Plugins/MediaColourFinderV2/media-colour-finder-v-2.js"
+    },
+    {
+      "type": "icons",
+      "alias": "oc.icons",
+      "name": "OC Custom Icons",
+      "js": "/App_Plugins/MediaColourFinderV2/icons/oc-custom-icons.js"
     }
   ]
 }

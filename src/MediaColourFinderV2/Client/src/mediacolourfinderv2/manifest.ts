@@ -5,7 +5,7 @@ const editorUi: UmbExtensionManifest = {
   element: () => import('./property-editor-ui-media-colour-finder.element.js'),
   meta: {
     label: 'Media Color Finder',
-    icon: 'icon-science',
+    icon: 'oc-media-colour-finder',
     group: 'common',
     propertyEditorSchemaAlias: 'Umbraco.Plain.String'
   },
