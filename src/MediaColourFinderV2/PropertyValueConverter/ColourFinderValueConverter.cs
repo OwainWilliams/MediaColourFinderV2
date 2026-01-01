@@ -12,11 +12,11 @@ namespace MediaColourFinderV2.PropertyValueConverters
 
         public ColourFinderValueConverter(IOptionsMonitor<ColourFinderData> colourFinderConfig)
         {
-            this._colourFinderConfig = colourFinderConfig.CurrentValue;
-            colourFinderConfig.OnChange(config => this._colourFinderConfig = config);
+            _colourFinderConfig = colourFinderConfig.CurrentValue;
+            colourFinderConfig.OnChange(config => _colourFinderConfig = config);
         }
 
-        public override bool IsConverter(IPublishedPropertyType propertyType) => propertyType.EditorUiAlias == "Our.Community.MediaColourFinderV2";
+        public override bool IsConverter(IPublishedPropertyType propertyType) => propertyType.EditorUiAlias == "OC.MediaColourFinderV2";
 
         public override Type GetPropertyValueType(IPublishedPropertyType propertyType)
         {
@@ -44,19 +44,19 @@ namespace MediaColourFinderV2.PropertyValueConverters
             {
                 if (string.IsNullOrWhiteSpace(model.Average))
                 {
-                    model.Average = this._colourFinderConfig.Average;
+                    model.Average = _colourFinderConfig.Average;
                 }
                 if (string.IsNullOrWhiteSpace(model.Brightest))
                 {
-                    model.Brightest = this._colourFinderConfig.Brightest;
+                    model.Brightest = _colourFinderConfig.Brightest;
                 }
                 if (string.IsNullOrWhiteSpace(model.Opposite))
                 {
-                    model.Opposite = this._colourFinderConfig.Opposite;
-                }
+                    model.Opposite = _colourFinderConfig.Opposite;
+                }   
                 if (string.IsNullOrWhiteSpace(model.TextColour))
                 {
-                    model.TextColour = this._colourFinderConfig.TextColour;
+                    model.TextColour = _colourFinderConfig.TextColour;
                 }
             }
             return model;

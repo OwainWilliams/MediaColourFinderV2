@@ -55,7 +55,7 @@ namespace MediaColourFinderV2.TestSite.Models
 		[global::System.CodeDom.Compiler.GeneratedCodeAttribute("Umbraco.ModelsBuilder.Embedded", "17.0.2+497c31e")]
 		[global::System.Diagnostics.CodeAnalysis.MaybeNull]
 		[ImplementPropertyType("colourFinder")]
-		public virtual string ColourFinder => this.Value<string>(_publishedValueFallback, "colourFinder");
+		public virtual global::MediaColourFinderV2.Models.ColourFinderData ColourFinder => this.Value<global::MediaColourFinderV2.Models.ColourFinderData>(_publishedValueFallback, "colourFinder");
 
 		///<summary>
 		/// File size
