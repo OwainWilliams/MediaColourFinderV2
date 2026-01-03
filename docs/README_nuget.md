@@ -12,4 +12,7 @@ You can then use these colours in your website build to enhance your designs.
 
 This is a community package and is not officially supported by Umbraco.
 
-This package is a successor to the original [Media Colour Finder](https://github.com/WildSiteCreations/Our.Community.MediaColourFinder) and is built for Umbraco V15+
+This package is a successor to the original [Media Colour Finder](https://github.com/WildSiteCreations/Our.Community.MediaColourFinder) and is built for Umbraco V15+.
+
+## Installation
+Full details available on [Github](https://github.com/OwainWilliams/MediaColourFinderV2)
